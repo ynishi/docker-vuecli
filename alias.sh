@@ -1,3 +1,3 @@
 #!/bin/sh
 
-alias vue='docker run --rm -it -v $(pwd):/prj -w /prj ynishi/vuecli vue'
+alias vue='docker run --rm -it --init -v $(pwd):/prj -w /prj ynishi/vuecli vue'
